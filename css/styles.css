@@ -1,0 +1,79 @@
+ *{
+    margin: o;
+    padding: o;
+}
+/* The navigation section */
+
+header{
+    background-color: rgb(116, 27, 27);
+
+}
+header ul img{
+    width: 5vmin;
+    margin-left: 2.5vmax;
+    margin-top: 1.5vmax;
+    margin-right: 33vmax;
+}
+header ul li{
+display: inline-block;
+
+}
+header ul li a {
+    text-decoration: none;
+    font-size: 2.7vmax;
+    margin-left: 2vmax;
+    color: white;
+}
+header ul li a:hover{
+    color: rgb(7, 7, 145);
+}
+/* The banner section of the page  */
+section{
+    text-align: center;
+    background: url(../img/latest\ salt\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 83vmax;
+
+}
+section h2{
+    font-size: 15vmax;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 7.5vmax;
+    color: whitesmoke;
+    text-shadow: 2px 4px black ;
+}
+section p{
+    font-size: 3.5vmax;
+    font-style: italic;
+}
+section button{
+    font-size: 3.7vmax;
+    margin-left: 10px;
+    border-radius: 3vmax;
+    background-color: rgb(14, 212, 212);
+    color: #fff;
+    border-style: none;
+    width: 25vmax;
+}
+section button :hover{
+    color: aqua;
+
+}
+/* The footer section */
+
+footer{
+    background-color: black;
+    text-align: center;
+    height: 9vmax;
+}
+footer label{
+    margin-top: 2vmax;
+    margin-left: 10vmax;
+
+
+}
+footer a{
+    color: whitesmoke;
+    float: right;
+}
